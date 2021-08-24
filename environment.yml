@@ -1,62 +1,61 @@
-name: qiskit-playground
 channels:
-  - ibmdecisionoptimization
-  - pyscf
-  - nvidia
-  - pytorch
-  - conda-forge
-  - defaults
+- ibmdecisionoptimization
+- pyscf
+- nvidia
+- pytorch
+- conda-forge
+- defaults
 dependencies:
-  - python=3.7
-  - pip
-  - cmake
-  - conan
-  - cudatoolkit
-  - scikit-build
-  - setuptools
-  - numpy
-  - mkl
-  - thrust
-  - tbb
-  - cython
-  - openmp
-  - pybind11
-  - scipy
-  - cvxopt
-  - fastdtw
-  - h5py
-  - pandas
-  - psutil
-  - quandl
-  - networkx
-  - scikit-learn
-  - requests
-  - urllib3
-  - websockets
-  - dill
-  - jsonschema
-  - ply
-  - sympy
-  - matplotlib
-  - ipywidgets
-  - jupyterlab
-  - widgetsnbextension
-  - pillow
-  - pygments
-  - pylatexenc
-  - seaborn
-  - ca-certificates
-  - openssl
-  - pre-commit
-  - certifi
-  - pyscf
-  - docplex
-  - requests_ntlm
-  - python-fastjsonschema
-  - python-constraint
-  - pip:
-      - yfinance
-      - dlx
-      - nest-asyncio
-      - "qiskit[visualization]"
-
+- ca-certificates
+- certifi
+- cmake
+- conan
+- cudatoolkit
+- cvxopt
+- cython
+- dill
+- docplex
+- fastdtw
+- h5py
+- ipywidgets
+- jsonschema
+- jupyterlab
+- matplotlib
+- mkl
+- networkx
+- numpy
+- openmp
+- openssl
+- pandas
+- pillow
+- pip
+- ply
+- pre-commit
+- psutil
+- pybind11
+- pygments
+- pylatexenc
+- pyscf
+- python-constraint
+- python-fastjsonschema
+- python=3.7
+- quandl
+- requests
+- requests_ntlm
+- scikit-build
+- scikit-learn
+- scipy
+- seaborn
+- setuptools
+- sympy
+- tbb
+- thrust
+- urllib3
+- websockets
+- widgetsnbextension
+- pip:
+  - dlx
+  - nest-asyncio
+  - qiskit[visualization]
+  - yfinance
+name: qiskit-playground
